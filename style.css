@@ -1,0 +1,238 @@
+
+    /*
+    NAV BAR
+        */
+    .menuItems {
+        display: none;
+        background-color: white;
+    }
+
+    .navBarObjects{
+        display: flex;
+        position: fixed;
+        width: 100%;
+    }
+
+
+    .menuItems.toggleCls {
+        display: block;
+        list-style-type: none;
+        text-align: right;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 34%;
+        margin-top: 3em;
+        font-size: 18px;
+        position: absolute;
+        right: 1.5em;
+    }
+
+
+    .nameNav {
+        left: 20px;
+        top: 20px;
+        font-size: 20px;
+    }
+
+
+    .hamIcon {
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        font-size: 27px;
+    }
+
+
+    a:link {
+        text-decoration: none;
+    }
+
+
+    li {
+        padding-top: 5px;
+    }
+
+
+    /*
+    CONTENT CONTAINER
+        */
+
+    .contentSection{
+        height: auto;
+        width: auto;
+    }
+
+
+    .introBox{
+        font-size: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+
+
+    .aboutMeBox{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+
+    .contactBox ol {
+        list-style-type: none;
+        text-align: left;
+    }
+
+
+    .contactBox li {
+        padding-top: 1em;
+        font-size: 25px;
+    }
+
+
+    .contactBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+
+    .projectBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+
+
+    /*      Tablet      */
+    @media only screen and (min-width: 432px){
+
+        /*
+   NAV BAR
+    */
+
+        .hamIcon{
+            display: none;
+        }
+
+
+        .navBarObjects{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            font-size: 20px;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+
+        .menuItems li, .menuItems{
+            display: flex;
+            flex-direction: row;
+            padding-right: 1em;
+            text-align: right;
+            padding-right: .5em;
+        }
+
+
+        .nameNav {
+            top: 20px;
+            text-decoration: none;
+            justify-content: flex-start;
+        }
+
+
+        li a{
+            text-decoration: none;
+            font-size: 21px;
+        }
+
+
+
+        /*
+        CONTENT CONTAINER
+         */
+
+        .contentSection{
+            height: 100vh;
+            width: auto;
+        }
+
+
+        .introBox{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+
+        .aboutMeBox{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-right: 3em;
+            margin-left: 3em;
+        }
+
+
+        .contactBox ol {
+            list-style-type: none;
+            text-align: left;
+        }
+
+
+        .contactBox li {
+            padding-top: 1em;
+            font-size: 25px;
+        }
+
+
+        .contactBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-right: 3em;
+            margin-left: 3em;
+        }
+
+
+        .projectBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-right: 3em;
+            margin-left: 3em;
+        }
+
+    ol a:hover{
+        color: red;
+    }
+
+
+    }
+
+
+
+
+
+
